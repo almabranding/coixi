@@ -1,0 +1,13 @@
+/* blocklangcurr */
+
+#currencies_lang_curr {
+	background: url('') no-repeat;
+	clear: both;
+	width: 230px;
+    
+} 
+#currencies_lang_curr option { 
+    padding-left: 0.5em;
+}  
+
+

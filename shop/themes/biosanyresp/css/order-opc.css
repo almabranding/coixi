@@ -1,0 +1,149 @@
+#orderopc  #left_column {display:none}
+#orderopc #center_column{width:757px}
+
+#orderopc  #left_column h2 {margin-top:20px}
+
+#opc_account_choice {}
+#opc_account_choice .opc_float {
+	float:left;
+
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+}
+#opc_account_choice .opc_float ul {
+    margin:0 0 20px 5px; 
+	list-style-type:none;
+	color: #828282
+}
+
+form#new_account_form {}
+#new_account_form  fieldset {
+
+	margin-bottom:20px;
+	background: white;
+	
+}
+#new_account_form  h3 {
+	background: #F5F5F3;
+    color: #828282;
+    font-size: 13px;
+	padding: 12px 11px;
+	line-height: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+}
+#center_column #new_account_form p {margin:0; padding:0 0 10px 0;}
+
+#new_account_form p.required {color:#444;}
+#new_account_form p.required  sup {color:#990000;}
+
+#new_account_form p.radio label {
+	padding-right:10px;
+	font-size:13px;
+	color: #828282;
+}
+#new_account_form p.radio span,
+#new_account_form p.text label,
+#new_account_form p.password label,
+#new_account_form p.select label,
+#new_account_form p.select span,
+#new_account_form p.textarea label {
+	display: inline-block;
+
+	font-size: 13px;
+
+}
+#new_account_form p.checkbox label {
+	font-size:13px;	
+	color: #828282;
+}
+#new_account_form p.text input,
+#new_account_form p.password input,
+#new_account_form p.select input {
+	padding: 0 5px;
+	height: 35px; 
+	font-size: 13px;
+	color: #7B7B7B; 
+    background: white; 
+    border: 1px solid #E3E3E3;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+	-moz-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -webkit-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -o-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -ms-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    box-shadow: 0 0 5px 0 #EAEAEA inset;
+} 
+
+#new_account_form p.checkbox input { 
+	vertical-align: -2px;
+}
+#new_account_form p.select select {
+	margin-right:10px;
+	font-size: 13px;
+	height: 35px;
+
+    color: #7B7B7B; 
+    background: white; 
+    border: 1px solid #E3E3E3;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+	-moz-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -webkit-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -o-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -ms-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    box-shadow: 0 0 5px 0 #EAEAEA inset;
+    padding: 8px;
+} 
+
+
+#new_account_form p.textarea textarea {
+	height:80px;
+
+	font-size: 13px;
+	color: #7B7B7B; 
+    background: white; 
+    border: 1px solid #E3E3E3;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+	-moz-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -webkit-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -o-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -ms-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    box-shadow: 0 0 5px 0 #EAEAEA inset;
+	padding: 5px;
+}
+
+#new_account_form span.form_info,
+#new_account_form span.inline-infos {
+	display:block;
+
+	color:#828282
+}
+#opc_account_errors {
+	margin: 10px;
+	margin-bottom: 15px;
+}
+#center_column #new_account_form p#opc_account_saved {
+	color: green;
+	float: right;
+	margin-right: 20px;
+	padding: 0;
+}

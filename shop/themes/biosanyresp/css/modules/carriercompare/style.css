@@ -1,0 +1,119 @@
+#compare_shipping .center {text-align: center;}
+
+
+#compare_shipping {
+	border: none;
+	background-color: #FFFFFF;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    border-top: 5px solid #669c41;
+    -moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+
+    margin: 20px 0;
+}
+
+
+#compare_shipping select {
+	background-color: white;
+    border: 1px solid #E3E3E3;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -webkit-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -o-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -ms-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    box-shadow: 0 0 5px 0 #EAEAEA inset;
+    color: #7B7B7B;
+    font-size: 13px;
+    height: 35px;
+    padding: 8px;
+    width: 170px; 
+}
+
+
+#compare_shipping option {
+    padding-left: 12px;
+}
+
+
+#compare_shipping input[type=text] {
+    background: white;
+    border: 1px solid #E3E3E3;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -webkit-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -o-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -ms-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    box-shadow: 0 0 5px 0 #EAEAEA inset;
+    color: #7B7B7B;
+    font-weight: normal;
+    height: 35px;
+    margin-top: 5px;
+    padding-left: 5px;
+    width: 250px;
+}
+
+
+
+
+#compare_shipping #availableCarriers {
+	margin-bottom: 20px;
+}
+
+
+#compare_shipping #availableCarriers_table {
+	margin: auto;
+}
+
+
+#compare_shipping ul#carriercompare_errors_list {
+	color: red;
+}
+
+
+#compare_shipping ul#carriercompare_errors_list li {
+	margin-left: 30px;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+#SE_AjaxDisplay
+{
+	text-align: center;
+	display: none;
+}
+
+
+#SE_AjaxDisplay img
+{
+	width: 15px;
+}
+
+
+.SE_SubmitRefreshCard
+{
+	text-align: center;
+}
+
+
+.SE_SubmitRefreshCard input
+{
+	display: inline;
+
+
+}

@@ -1,0 +1,10 @@
+/* Block logo payment */ 
+
+
+.paiement_logo_block { 
+ 	display: block;
+	text-align: center;
+	padding: 15px 5px; 
+}
+.paiement_logo_block a { text-decoration: none }
+.paiement_logo_block img { margin: 0 0.5em }

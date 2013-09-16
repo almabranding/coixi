@@ -1,0 +1,128 @@
+#identity #left_column {display:none}
+#identity #center_column{width:100%}
+
+#identity h3 {
+	font-weight:normal;
+	font-size:13px
+}
+#identity p {padding-bottom:0px}
+
+#identity p	{margin-bottom:0}
+
+#identity form.std fieldset {
+   position:relative; 
+   margin: 10px 0 20px 0;
+   padding: 25px;
+   font-size: 13px;
+   background-color: white;
+   border-top: 5px solid black;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   -o-border-radius: 4px;
+   -ms-border-radius: 4px;
+   border-radius: 4px;
+   -moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+	-ms-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+#identity .std p.required {color:#333}
+
+#identity .std p.text label,
+#identity .std p.password label,
+#identity .std p.select label {
+	display: inline-block;
+	color: #828282;
+    float: none;
+    font-size: 13px;
+
+}
+#identity .std p.text label sup,
+#identity .std p.password label sup,
+#identity .std p.select label sup {color:#990000}
+
+#identity .std p.text input,
+#identity .std p.password input {
+	background: white;
+    border: 1px solid #E3E3E3;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -webkit-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -o-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -ms-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    box-shadow: 0 0 5px 0 #EAEAEA inset;
+    color: #7B7B7B;
+    font-size: 14px;
+    height: 35px;
+    padding: 0 5px;
+	margin-bottom: 10px
+
+}
+
+#identity .std p.select select {
+	background: white;
+    border: 1px solid #E3E3E3;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -webkit-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -o-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -ms-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    box-shadow: 0 0 5px 0 #EAEAEA inset;
+    color: #7B7B7B;
+    font-size: 13px;
+    height: 35px;
+    margin-right: 10px;
+    padding: 8px;
+
+}
+
+
+#identity .std p.select option {
+    padding-left: 7px;
+}
+
+#identity .std p.radio span {
+	display: inline-block;
+    float: none;
+    font-size: 13px;
+    
+
+}
+#identity .std p.radio input {
+	padding:0 5px; 
+	margin-bottom: 10px;
+	height:auto;
+	width:auto;
+	border:none;
+	background:none
+}
+
+#identity .std p.checkbox input {
+	position:relative;
+	top:2px;
+	left:0;
+
+}
+
+
+#identity .std p.submit .button {}
+
+#identity .std #security_informations {
+
+	font-size:11px
+}
+
+
+
+
+

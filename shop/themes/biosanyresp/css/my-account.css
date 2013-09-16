@@ -1,0 +1,63 @@
+#my-account  #left_column {display:none}
+#my-account #center_column {width:100%}
+#my-account #center_column h1 {margin-bottom:20px}
+
+#my-account #center_column h4 {
+	font-weight: normal;
+	font-size: 13px;
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+	font-family: 'Open Sans',Verdana,Arial,Helvetica;
+	color: #828282;
+	text-transform: none;
+	height: 40px;
+    line-height: 13px;
+
+    padding-left: 0px;
+}
+
+#my-account .myaccount_lnk_list {
+    list-style-type:none;
+	width: 100%;
+}
+#my-account .myaccount_lnk_list li {  
+
+	font-size: 13px;
+
+	-moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+	background: white;
+    -moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+	-o-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+	-ms-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+} 
+#my-account .myaccount_lnk_list li span,
+#my-account .myaccount_lnk_list li p {  
+
+	font-size: 14px;
+
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+} 
+
+#my-account .myaccount_lnk_list li a p {  
+
+	color: #1B1A19;
+} 
+
+#my-account .myaccount_lnk_list li a:hover p {  
+
+	color: #669c41;
+} 
+

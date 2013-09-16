@@ -1,0 +1,108 @@
+/* block top user information */
+
+#header_user {
+
+	height: 100%
+}
+
+#header_user ul {
+    list-style-type: none;
+ 
+}
+
+ 
+
+
+#header_user li#shopping_cart a  {
+	background: url("img/icons.png") no-repeat scroll -37px 0 transparent;
+    color: #1B1A19;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 3px 11px 0;
+    text-transform: uppercase;
+} 
+#header_user li#shopping_cart a:hover  {
+/*	background: url(img/icons.png) no-repeat;
+	-moz-transition: background 200ms ease-in-out 0s;
+    -webkit-transition: background 200ms ease-in-out 0s;
+    -o-transition: background 200ms ease-in-out 0s;
+    -ms-transition: background 200ms ease-in-out 0s;
+    transition: background 200ms ease-in-out 0s; */
+	
+} 
+
+#header_user li#shopping_cart a span {	 
+
+	color: #1B1A19;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: normal
+
+}
+
+#header_user li.your_account a  {
+	background: url("img/icons.png") no-repeat scroll 73px 0 transparent;
+        color: #603813;
+        font-size: 12px;
+        font-weight: normal;
+        padding: 3px 39px 0 0;
+} 
+#header_user li.your_account a:hover  {
+/*	background: url(img/icons.png) no-repeat; 
+	-moz-transition: background 200ms ease-in-out 0s;
+    -webkit-transition: background 200ms ease-in-out 0s;
+    -o-transition: background 200ms ease-in-out 0s;
+    -ms-transition: background 200ms ease-in-out 0s;
+    transition: background 200ms ease-in-out 0s;*/
+
+}
+#header_user p.userinfo {
+
+
+	padding: 5px 0;
+
+	color: #7B7B7B;
+	font-family: sans-serif;
+	font-size: 12px
+	
+}
+#header_user p.userinfo a  {
+	background: url(../../../img/green_icons/log-black-16.png) no-repeat 5px;
+	padding: 5px 0 5px 25px;
+    color: #828282;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold
+	
+}
+#header_user p.userinfo a:hover  {
+	background: url(../../../img/green_icons/log-green-16.png) no-repeat 5px;
+	padding: 5px 0 5px 25px;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold
+	
+}
+
+#header_user p.userinfo a:hover  {
+
+    color: #669c41;
+	-moz-transition: all 400ms ease-in-out 0s;
+    -webkit-transition: all 400ms ease-in-out 0s;
+    -o-transition: all 400ms ease-in-out 0s;
+    -ms-transition: all 400ms ease-in-out 0s;
+    transition: all 400ms ease-in-out 0s;
+	
+}  
+#header_user p.userinfo a.account {
+	background:none;
+	padding: 5px 0 5px 2px;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold
+	
+}
+
+
+*:first-child+html #header_user_info a {line-height:14px;}
+

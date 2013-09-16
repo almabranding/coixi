@@ -1,0 +1,31 @@
+
+
+
+
+
+#social_block li { 
+    float: left;
+	margin-right: 5px;
+	background: none; 
+	padding:0 0 !important;
+} 
+
+
+#social_block li img:hover {
+
+
+    -moz-transition: all 800ms ease-in-out 0s;
+    -webkit-transition: all 800ms ease-in-out 0s;
+    -o-transition: all 800ms ease-in-out 0s;
+    -ms-transition: all 800ms ease-in-out 0s;
+    transition: all 800ms ease-in-out 0s; 
+
+
+} 
+#social_block li a:hover {
+    border-top: none;
+} 	
+
+
+
+

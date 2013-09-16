@@ -1,0 +1,143 @@
+/* create account ****************************************************************************** */
+#account-creation_form {}
+
+#account-creation_form  fieldset {
+	background-color: #ffffff;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;	
+	-o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    padding: 25px;	
+	-moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+	}
+#account-creation_form  h3 {
+	background: #F5F5F3;
+    color: #828282;
+    font-size: 13px;
+	padding: 12px 11px;
+    font-weight: normal;
+    text-transform: uppercase;
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+		}
+#center_column #account-creation_form p {margin:0; padding:0 0 10px 0}
+#account-creation_form p.required {
+    color: #828282;
+    -webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+}
+#account-creation_form p.required  sup {color:#990000}
+		
+#account-creation_form p.radio span,
+#account-creation_form p.text label,
+#account-creation_form p.password label,
+#account-creation_form p.select label,
+#account-creation_form p.select span,
+#account-creation_form p.textarea label { 
+
+			display:inline-block;
+			font-size:13px;
+
+}
+#account-creation_form p.radio label {
+			float:none;
+			padding-right:10px;
+			width:auto;
+			font-size:13px
+}
+#account-creation_form p.checkbox label {
+			float:none;
+			width:auto;
+			font-size:13px
+}
+#account-creation_form p.text input,
+#account-creation_form p.password input,
+#account-creation_form p.select input {
+	padding: 0 5px;
+	height: 35px; 
+	font-size: 14px;
+    background: white; 
+    border: 1px solid #E3E3E3;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+	-moz-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -webkit-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -o-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -ms-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    box-shadow: 0 0 5px 0 #EAEAEA inset;
+    color: #7B7B7B;
+
+} 
+
+
+#account-creation_form p.checkbox input {
+
+    vertical-align: -2px;
+}
+#account-creation_form p.select select {
+	margin-right:10px;
+	font-size: 13px;
+	height: 35px;
+    color: #7B7B7B; 
+    background: white; 
+    border: 1px solid #E3E3E3;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+	-moz-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -webkit-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -o-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -ms-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    box-shadow: 0 0 5px 0 #EAEAEA inset;
+    padding: 5px;
+}
+
+#account-creation_form p.textarea textarea {
+	height:80px;
+	width:370px;
+	font-size: 13px;
+	color: #7B7B7B; 
+    background: white; 
+    border: 1px solid #E3E3E3;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;	
+	-moz-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -webkit-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -o-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    -ms-box-shadow: 0 0 5px 0 #EAEAEA inset;
+    box-shadow: 0 0 5px 0 #EAEAEA inset;
+    padding: 5px;
+}
+	
+#account-creation_form span.form_info {
+			display:block;
+			color:#828282
+}
+#account-creation_form p.inline-infos {
+			margin:0 0 0 100px !important;
+			font-size:13px;
+			color:#828282;
+}
+	
+#center_column #account-creation_form p.cart_navigation {
+    margin: 20px 30px;
+}

@@ -1,0 +1,52 @@
+/* footer */ 
+
+
+
+
+
+/* Block CMS links */ 
+
+
+.informations_block_left ul {
+    list-style-type: none;
+	padding-bottom: 20px
+} 
+
+
+.informations_block_left li {}
+.informations_block_left li.last {border:none;}
+.informations_block_left li a {
+    display: block;
+    padding: 8px 3px;
+	color: #646464;
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+	text-decoration: none;
+	-moz-transition: all 600ms ease-in-out 0s;
+    -webkit-transition: all 600ms ease-in-out 0s;
+    -o-transition: all 600ms ease-in-out 0s;
+    -ms-transition: all 600ms ease-in-out 0s;
+    transition: all 600ms ease-in-out 0s;
+}
+
+
+.informations_block_left li a:hover {  
+
+
+	background: url(../../../img/icon/menu_green_arrow.gif) no-repeat left;
+	padding: 8px 13px;
+	color:#669c41;
+	-moz-transition: padding-left 600ms ease-in-out 0s;
+    -webkit-transition: padding-left 600ms ease-in-out 0s;
+    -o-transition: padding-left 600ms ease-in-out 0s;
+    -ms-transition: padding-left 600ms ease-in-out 0s;
+    transition: padding-left 600ms ease-in-out 0s;
+}
+
+    
+tr.subitem > td:first-child + td {
+    padding-left: 10px;
+}

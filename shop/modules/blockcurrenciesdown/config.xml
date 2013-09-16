@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" ?><module>	<name>blockcurrenciesdown</name>	<displayName>Currency block dropdown</displayName>	<version>1</version>	<description>Adds a block for selecting a currency</description>	<author></author>	<tab>tools</tab>	<is_configurable>0</is_configurable>	<need_instance>1</need_instance></module>

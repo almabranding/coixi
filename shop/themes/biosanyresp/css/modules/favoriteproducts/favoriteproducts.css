@@ -1,0 +1,102 @@
+#module-favoriteproducts-favoriteproducts-account #left_column {display:none}
+#module-favoriteproducts-favoriteproducts-account #center_column {width:757px}
+
+#favoriteproducts_block_account .favoriteproduct {
+	position:relative;
+    margin-bottom: 14px;
+    padding: 12px 8px;
+	color: #828282;
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+}
+
+.favoriteproduct a.product_img_link {
+	width: 220px;
+	height: 220px; 
+	padding: 5px 0 0 5px;
+    display: block;
+    float: left;
+    margin-right: 14px;
+    overflow: hidden;
+    position: relative;
+}
+
+.favoriteproduct a.product_img_link img {
+
+    -moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+	-moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+	width: 210px;
+	height: 210px
+}
+.favoriteproduct a.product_img_link img:hover {
+
+    -webkit-box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.1); 
+    -moz-box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.1); 
+    -o-box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.1); 
+    -ms-box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.1);
+}
+
+.favoriteproduct h3 {
+    color: #1B1A19;
+    font-size: 15px;
+    padding: 5px 0 10px;
+}
+
+.favoriteproduct  p.product_desc {
+    line-height: 16px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.favoriteproduct .remove {
+	position:absolute;
+
+	right:10px
+}
+.favoriteproduct .remove .icon {cursor:pointer}
+
+
+/* lnk fiche produit */
+
+#usefull_link_block li#favoriteproducts_block_extra_add { 
+    -ms-display: none;
+	cursor: pointer;
+	padding-top: 5px;
+
+}
+
+#usefull_link_block li#favoriteproducts_block_extra_remove {
+   	-ms-display: none;
+	cursor: pointer; 
+	padding-top: 5px;
+
+}
+
+
+ul#usefull_link_block li#favoriteproducts_block_extra_added {
+	-ms-display: none;
+	cursor: pointer;
+	padding-top: 5px;
+	display: none; 
+
+}
+
+ul#usefull_link_block li#favoriteproducts_block_extra_removed {
+	-ms-display: none;
+	cursor: pointer; 
+	padding-top: 5px;
+	display: none;	
+
+}

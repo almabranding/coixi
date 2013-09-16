@@ -1,0 +1,59 @@
+/* category.tpl */ 
+body#category #subcategories ul { 
+	margin-top: 30px;
+	list-style-type: none
+}
+body#category #subcategories li { 
+	width: auto;  
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	border:1px solid #669c41;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	font-weight:normal;	 
+	text-transform: uppercase;
+	color:white;
+	background:url(../img/bg_bt.gif) repeat-x;
+	cursor: pointer;
+}
+body#category #subcategories li:hover {
+ 
+	text-decoration:none; 
+	border:1px solid black;
+	background-position: left -80px;
+	-webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2); 
+    -moz-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2); 
+    -o-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2); 
+    -ms-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2); 
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2); 
+}
+div.cat_desc { 
+    margin-bottom: 10px; 
+	color: #848484;
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white; 
+}
+body#category div#subcategories .inline_list a img { display: none }
+div#subcategories h3 { display: none }
+#category img#categoryImage { 
+    margin: 0 0 20px; 
+	width: 100%;
+
+	
+}	
+
+#subcategories li a { color: white }
+#subcategories li a:hover { color: white; }
+
+div#subcategories { } 
+

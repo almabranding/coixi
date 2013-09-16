@@ -1,0 +1,4 @@
+{employee} està esperant-vos per fer un xat plegats.
+Comentari: {comment}
+ 
+{messages}

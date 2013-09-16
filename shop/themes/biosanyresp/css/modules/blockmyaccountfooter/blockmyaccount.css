@@ -1,0 +1,121 @@
+/* block myaccount */  
+
+.myaccount h4 {
+    background: transparent;
+    color: #1B1A19;
+	border-bottom: 1px solid #E3E3E3;
+    font-family: 'Open Sans',Verdana,Arial;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    -webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+    text-transform: uppercase;
+}
+.myaccount ul {margin-bottom:10px}
+.myaccount li {}
+.myaccount li a {
+    display: block;
+    padding: 8px 3px;
+	color: #646464;
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+	text-decoration: none;
+	-moz-transition: all 600ms ease-in-out 0s;
+    -webkit-transition: all 600ms ease-in-out 0s;
+    -o-transition: all 600ms ease-in-out 0s;
+    -ms-transition: all 600ms ease-in-out 0s;
+    transition: all 600ms ease-in-out 0s;
+}  
+
+.myaccount li a p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.myaccount li a:hover {
+
+	background: url(../../../img/icon/menu_green_arrow.gif) no-repeat left;
+	padding: 8px 13px;
+	color:#669c41;
+	-moz-transition: padding-left 600ms ease-in-out 0s;
+    -webkit-transition: padding-left 600ms ease-in-out 0s;
+    -o-transition: padding-left 600ms ease-in-out 0s;
+    -ms-transition: padding-left 600ms ease-in-out 0s;
+    transition: padding-left 600ms ease-in-out 0s;
+}
+
+.myaccount p.logout { 
+   background: url("../../../img/biosany/sign-out-mini-hover.png") no-repeat scroll 2px 21px transparent;
+   color: #646464;
+   font-weight: normal;
+   padding: 20px 0 10px 20px;
+   -webkit-text-shadow: 1px 1px 0 white; 
+   -moz-text-shadow: 1px 1px 0 white; 
+   -o-text-shadow: 1px 1px 0 white; 
+   -ms-text-shadow: 1px 1px 0 white;
+   text-shadow: 1px 1px 0 white;
+} 
+
+.myaccount p.logout a:hover { 
+   color: #ec3e3f;
+   -webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+}
+
+.myaccount li.loyalty a img {
+    display: none
+}
+.myaccount li.lnk_wishlist a img {
+    display: none
+}
+
+
+/* block myaccount in footer */	   
+
+#footer .myaccount {padding:15px 10px;}
+#footer .myaccount h4 {background: none;}
+#footer .myaccount .logout {display:none;}
+#footer .myaccount h4 {
+	padding:0 0 10px 0;
+	background:#333
+}
+#footer .myaccount ul {margin-bottom:0}
+#footer .myaccount li {border-bottom:none}
+#footer .myaccount li a {
+   display: block;
+	padding:0;
+   color: #fff;
+   background: none
+}
+#footer .myaccount li.lnk_wishlist img {display:none
+}
+#footer p.logout { 
+   display: none;
+   background: url("../../../img/calceus/sign-out-mini.png") no-repeat scroll 0 21px transparent;	
+   padding: 20px 0 0 20px;
+   -webkit-text-shadow: 1px 1px 0 black; 
+   -moz-text-shadow: 1px 1px 0 black; 
+   -o-text-shadow: 1px 1px 0 black; 
+   -ms-text-shadow: 1px 1px 0 black;
+   text-shadow: 1px 1px 0 black;
+}
+
+#footer p.logout a:hover { 
+   color: #ec3e3f;
+   -webkit-text-shadow: 1px 1px 0 black; 
+    -moz-text-shadow: 1px 1px 0 black; 
+    -o-text-shadow: 1px 1px 0 black; 
+    -ms-text-shadow: 1px 1px 0 black;
+    text-shadow: 1px 1px 0 black;
+}

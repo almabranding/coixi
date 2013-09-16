@@ -1,0 +1,215 @@
+/* product-list.tpl */
+ul#product_list { 
+	border-top: 1px solid #ddd;
+    clear: both;
+    height: 310px;
+    list-style-type: none;
+    padding-top: 32px;
+}
+ul#product_list li.fist_line,ul#product_list li.first_item{
+    border-left: none;
+}
+ul#product_list li {  
+  background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 1px solid #EBEBEB;
+    cursor: pointer;
+    line-height: 23px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding: 0 13px;
+    text-align: center;
+    z-index: 10;
+}
+ul#product_list li:hover {  
+  
+  
+
+}
+
+
+ul#product_list h5 { 
+    color: #3C3C3C;
+    display: inline;
+    font-family: 'AvantGardeLight' !important;
+    font-size: 17px;
+    font-weight: normal;
+    height: 24px;
+    line-height: 0;
+    margin: auto;
+    padding-left: 0;
+    text-align: center;
+	 
+} 
+
+
+
+
+ul#product_list h5 a:hover {
+	color: #669c41;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 14px;
+	-moz-transition: all 400ms ease-in-out 0s;
+    -webkit-transition: all 400ms ease-in-out 0s;
+    -o-transition: all 400ms ease-in-out 0s;
+    -ms-transition: all 400ms ease-in-out 0s;
+    transition: all 400ms ease-in-out 0s;
+}
+
+
+
+
+
+
+
+
+ul#product_list a.product_img_link {
+	border: none;
+	float: left;
+	margin-right: 3em
+}
+
+ul#product_list a.product_image img {
+
+	-moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px; 
+} 
+
+
+ul#product_list .lnk_more {
+	display:inline;
+	margin: -15px 0 0 0;	
+	float: right;
+	color: transparent;
+	height: 35px;
+	width: 35px;
+        display:none;
+	background:url(../img/green_icons/eye-green-35.png) repeat-x;
+	cursor: pointer;
+
+
+}
+ul#product_list .lnk_more:hover {
+	background:url(../img/green_icons/eye-black-35.png) repeat-x;
+	
+}
+
+
+
+
+ul#product_list li h3 { margin: 0 }
+ul#product_list li span.new {  
+
+	display: none;
+	
+ 	line-height: 17px;
+	z-index: 10000;
+	position: absolute;
+	width: 70px;
+	float: right;
+
+
+	background-color: #F4F4F2;
+	color: #FF7474;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 5px;
+	text-transform: uppercase;
+
+	-moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+
+
+}
+
+
+ul#product_list li span.on_sale {	
+
+    display: none;	
+	
+ 	line-height: 17px;
+	z-index: 10000;
+
+	position: absolute;
+	width: 70px;
+	float: left;
+
+
+	background-color: #FF7474;
+	color: white;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 5px;
+	text-transform: uppercase;
+
+
+	-moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    -ms-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+
+
+}
+
+
+ul#product_list li p.product_desc {
+	margin-top: 20px;
+	color: #75858d;
+	font-size: 12px
+}
+ul#product_list li div.center_block {
+	float: left;
+	width: 75%;
+	margin-right: 3em;
+	margin-left: 0;
+}
+ul#product_list li div.right_block {
+	float: right;
+	width: 11em;
+	text-align: right;
+	margin-right: 0px;
+	margin-top: 10px
+}
+ul#product_list li .discount, ul#product_list li .on_sale, ul#product_list li .online_only {
+	color: #E49E9E;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-bottom: 20px;
+	display: block
+}
+ul#product_list li .reduction {
+	display: block;
+	margin-bottom: 0.3em
+}
+ul#product_list li .price {
+color: #603813;
+    font-family: 'AvantGardeLight' !important;
+    font-size: 19px;
+    font-weight: normal;
+}
+ul#product_list li span.availability { 
+    display: block;
+	color: #75858D;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 12px
+}
+ul#product_list li a.button { margin-top: 0.5em; margin-bottom: 0.5em; float: right }
+ul#product_list li a.button_large { display: none }
+ul#product_list li p.compare input { display: none; vertical-align: text-bottom } 
+ul#product_list li p.compare { display: none }
+
+
+.bouton-view {
+	margin-left: 165px;
+	margin-top: 10px;

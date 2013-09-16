@@ -1,0 +1,19 @@
+/* Block advertising */	
+
+.advertising_block {
+ 	background-color: none;
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+.advertising_block img { 
+
+
+	width: 100%;
+	-moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);  
+	
+}

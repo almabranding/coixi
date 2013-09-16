@@ -1,0 +1,77 @@
+.brand_carousel.loader{background: url(../img/loader.gif) center center  no-repeat; position:relative; z-index:9999; height:89px;}
+#brand_wrapper{ display:none;}
+.brand_carousel.responsive {
+	width: auto;
+	margin-left: 0; 
+}
+.brand_carousel {
+	display: block;
+	padding: 20px 0;
+	position:  relative;
+	 
+}
+.brand_carousel a:hover img{ 
+    opacity:1;filter:alpha(opacity=100);
+}
+.brand_carousel a {
+	text-decoration: none;
+	display: block;
+	float:left;
+}
+.brand_carousel img { 
+
+	display:block;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	-webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+} 
+.brand_carousel a img {
+	margin: 0 auto;
+}
+a.prev {
+	background: url(../img/thumbs_left_big.png) no-repeat transparent;
+	width: 9px;
+	height: 51px;
+	display: block;
+	position: absolute;
+
+	display:none;
+	opacity:0; filter:alpha(opacity=0); -moz-transition: opacity 300ms ease, left 300ms ease, right 300ms ease; -webkit-transition: opacity 300ms ease, left 300ms ease, right 300ms ease; -o-transition: opacity 300ms ease, left 300ms ease, right 300ms ease; transition: opacity 300ms ease, left 300ms ease, right 300ms ease;
+}
+a.next {
+	background: url(../img/thumbs_right_big.png) no-repeat transparent;
+	width: 9px;
+	height: 51px;
+	display: block;
+	position: absolute;
+
+	display:none;
+	opacity:0; filter:alpha(opacity=0); -moz-transition: opacity 300ms ease, left 300ms ease, right 300ms ease; -webkit-transition: opacity 300ms ease, left 300ms ease, right 300ms ease; -o-transition: opacity 300ms ease, left 300ms ease, right 300ms ease; transition: opacity 300ms ease, left 300ms ease, right 300ms ease;
+}
+
+.brand_carousel:hover a.prev{opacity:1;filter:alpha(opacity=100); left:0;}
+.brand_carousel:hover a.next{opacity:1;filter:alpha(opacity=100); right:0;}
+
+a.prev:hover { 
+	background: url(../img/thumbs_left_big_hover.png) no-repeat transparent;
+ }
+a.prev.disabled { 
+	opacity:0;
+}
+
+a.next:hover { 
+	background: url(../img/thumbs_right_big_hover.png) no-repeat transparent; 
+}
+a.next.disabled {
+	opacity:0;
+}
+a.prev.disabled, a.next.disabled {
+	cursor: default;
+}
+a.prev span, a.next span {
+	display: none;
+}

@@ -1,0 +1,200 @@
+
+#HOOK_SHOPPING_CART #crossselling { display: none }
+
+#crossselling h2.productscategory_h2 {
+	clear: both;
+    color: #1B1A19;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: normal;
+
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+    text-transform: uppercase; 
+	padding: 0 0 0 5px;
+}
+
+
+#crossselling {	
+
+	margin: 1.5em auto;
+	height: 300px;
+	width: 100%; 
+}
+#crossselling_noscroll {
+
+	height: 300px;
+	width: 100%;
+	margin-bottom: 0px;	
+}
+#crossselling_list { 
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	margin-bottom: 1.5em;
+	width: 100%;
+	padding: 10px 0; 
+	
+}
+#crossselling_list ul {	
+
+	padding-left: 0;
+	list-style-type: none  
+	
+}
+#crossselling_list li {
+
+	float: left;
+	background: #FFFFFF;
+    border: 9px solid #FFFFFF;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+	-moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+	padding: 5px;
+	cursor: pointer;
+	text-align: center;	
+	width: 187px;
+	overflow: hidden;
+	line-height: 23px;	
+	
+} 
+
+#crossselling_list li:hover {
+    -moz-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+} 
+
+#crossselling_list li a {  
+
+    margin: auto; 
+    color: #3C3C3C;
+	font-weight: normal;
+	font-size: 14px; 
+    -webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white; 
+	
+}	
+
+#crossselling_list li a:hover {
+ 
+    margin: auto; 
+    color:#669c41;
+	-moz-transition: all 400ms ease-in-out 0s;
+    -webkit-transition: all 400ms ease-in-out 0s;
+    -o-transition: all 400ms ease-in-out 0s;
+    -ms-transition: all 400ms ease-in-out 0s;
+    transition: all 400ms ease-in-out 0s;
+	 
+}
+
+#crossselling_list img {
+ 
+    border: none;	
+	margin-top: 3px;
+	-moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	-ms-border-radius: 2px;
+    border-radius: 2px;
+	width: 185px;
+	height: 185px		
+}
+
+#crossselling_scroll_left {
+
+	background: url('img/thumbs_left.png') no-repeat center;
+	text-indent: -3000px;
+	display: block;
+	width: 11px;
+	height: 31px;
+}
+#crossselling_scroll_left:hover { 
+
+	background: url('img/thumbs_left_hover.png') no-repeat center;
+}
+
+#crossselling_scroll_right {   
+
+    background: url('img/thumbs_right.png') no-repeat;
+	text-indent: -3000px;
+	display: block;
+	width: 11px;
+	height: 31px; 
+}
+#crossselling_scroll_right:hover { 
+
+    background: url('img/thumbs_right_hover.png') no-repeat; 
+}
+
+
+#crossselling_list li a.lnk_img {display:block}
+#crossselling_list li a img {
+   margin-top: 3px; 
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+   -o-border-radius: 2px;
+   -ms-border-radius: 2px;
+   border-radius: 2px;
+}
+
+#crossselling_list li p.product_name {
+    text-align: left;
+	height: 30px;
+    line-height: 30px;
+    margin: 5px 0;
+	padding-left: 2px;
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+}
+#crossselling_list li p.price_display {
+    float:left;
+	margin-top: 0;
+}
+#crossselling_list li p.price_display span.price {
+    color: #669C41;
+    font-family: 'Open Sans',Verdana,Arial;
+	font-size: 19px;
+	font-weight: normal;
+	padding-left: 2px;
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+}
+
+#crossselling_list .lnk_more {
+	display:inline;
+	margin: -5px 0 0 0;	
+	float: right;
+	color: transparent;
+	height: 35px;
+	width: 35px;
+	background:url(../../../img/green_icons/eye-green-35.png) repeat-x;
+	cursor: pointer;
+
+}
+#crossselling_list .lnk_more:hover { 
+	margin: -5px 0 0 0;	
+	background:url(../../../img/green_icons/eye-black-35.png) repeat-x;
+	
+}

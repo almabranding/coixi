@@ -1,0 +1,185 @@
+
+h2.productscategory_h2 {  
+	clear: both;
+    color: #603813;
+    font-family: 'AvantGardeLight' !important;
+    font-size: 18px;
+    font-weight: normal;
+
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+	padding: 0 0 0 5px;
+}
+
+#productscategory {
+position: relative;
+	margin: 1.5em auto;
+	height: 300px;
+	width: 100%;
+} 
+#productscategory_noscroll {
+	height: 300px;
+	width: 100%;
+	margin-bottom: 0px;	
+}
+#productscategory_list .product_name{
+    display: none;
+}
+#productscategory_list .lnk_more{
+    display: none !important;
+}
+#productscategory_list li, #crossselling_list li {
+    margin: 0 20px 0 0 !important;
+}
+#productscategory_list {
+	overflow: hidden;
+	float: left;
+	margin-bottom: 1.5em;
+	width: 100%;
+	padding: 10px 0;
+}
+#productscategory_list ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+#productscategory_list li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E2E2E2;
+    cursor: pointer;
+    float: left;
+    line-height: 0;
+    overflow: hidden;
+    padding: 2px;
+    text-align: center;
+    width: 210px;
+} 
+
+#productscategory_list li:hover {
+} 
+
+#productscategory_list li a { 
+    margin: auto; 
+    color: #3C3C3C;
+	font-weight: normal;
+	font-size: 14px; 
+    -webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white; 
+}
+#productscategory_list li a:hover { 
+    margin: auto; 
+    color:#669c41;
+	-moz-transition: all 400ms ease-in-out 0s;
+    -webkit-transition: all 400ms ease-in-out 0s;
+    -o-transition: all 400ms ease-in-out 0s;
+    -ms-transition: all 400ms ease-in-out 0s;
+    transition: all 400ms ease-in-out 0s;
+	 
+} 
+
+#productscategory_list img { 
+    border: none;	
+	margin-top: 3px;
+	-moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	-ms-border-radius: 2px;
+    border-radius: 2px;
+	width: 200px;
+	height: 200px;	
+}
+
+#productscategory_scroll_left {
+	 background: url("img/thumbs_left.png") no-repeat scroll center center transparent;
+    display: inline;
+    height: 31px;
+    left: -14px;
+    position: absolute;
+    text-indent: -3000px;
+    top: 32%;
+    width: 11px;
+    margin:0;
+
+}
+#productscategory_scroll_left:hover {
+	background: url('img/thumbs_left_hover.png') no-repeat center;
+}
+
+#productscategory_scroll_right { 
+   background: url("img/thumbs_right.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: none;
+    height: 31px;
+    margin: 0;
+    position: absolute;
+    right: -21px;
+    text-indent: -3000px;
+    top: 30%;
+    width: 11px;
+	 
+}
+#productscategory_scroll_right:hover { 
+    background: url('img/thumbs_right_hover.png') no-repeat; 
+}
+
+#productscategory_list li a.lnk_img {display:block}
+#productscategory_list li a img {
+
+   margin-top: 3px; 
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+   -o-border-radius: 2px;
+   -ms-border-radius: 2px;
+   border-radius: 2px;
+}
+
+#productscategory_list li p.product_name {
+    text-align: left;
+	height: 30px;
+    line-height: 30px;
+    margin: 5px 0;
+	padding-left: 2px;
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+}
+#productscategory_list li p.price_display {
+    float:left;
+	margin-top: 0;
+}
+#productscategory_list li p.price_display span.price {
+    color: #669C41;
+    font-family: 'Open Sans',Verdana,Arial;
+	font-size: 19px;
+	font-weight: normal;
+	padding-left: 2px;
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+}
+
+#productscategory_list .lnk_more {
+	display:inline;
+	margin: -5px 0 0 0;	
+	float: right;
+	color: transparent;
+	height: 35px;
+	width: 35px;
+	background:url(../../../img/green_icons/eye-green-35.png) repeat-x;
+	cursor: pointer;
+
+}
+#productscategory_list .lnk_more:hover { 
+	margin: -5px 0 0 0;	
+	background:url(../../../img/green_icons/eye-black-35.png) repeat-x;
+	
+}

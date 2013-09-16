@@ -1,0 +1,101 @@
+#categories_block_left  li {
+    background-color: #F5F5F3;
+    border: 1px solid white;
+	outline: 1px solid #E3E3E3;
+    list-style: none outside none;
+    margin-bottom: 10px;
+	-moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}
+#categories_block_left  li.last {	
+	background-color: #F5F5F3;
+    border: 1px solid white;
+	outline: 1px solid #E3E3E3;
+    list-style: none outside none;
+    margin-bottom: 10px; 
+	-moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}
+#categories_block_left  li a {
+	display:block;
+	padding:10px 12px;
+	color:#828282;
+	-webkit-text-shadow: 1px 1px 0 white; 
+    -moz-text-shadow: 1px 1px 0 white; 
+    -o-text-shadow: 1px 1px 0 white; 
+    -ms-text-shadow: 1px 1px 0 white;
+    text-shadow: 1px 1px 0 white;
+	text-decoration: none;			
+}
+#categories_block_left  li a:hover {
+	color:#669c41;	
+}
+		
+#categories_block_left  li ul {
+	margin-left:10px;
+}
+#categories_block_left  li ul li {
+    border:none; 
+	outline: none;
+	padding: 0;
+	margin-bottom: 4px;	
+	
+}
+#categories_block_left  li ul li.last {
+    border:none;
+	outline: none;
+	padding: 0; 
+	margin-bottom: 4px;
+	
+}
+#categories_block_left  li ul li a {
+	background:none;
+	padding: 5px 12px;
+}
+		
+#categories_block_left li .OPEN,
+#categories_block_left li .CLOSE {
+	display:block;
+	float:right;
+	margin:13px 10px 0;
+	height:9px;
+	width:18px;
+	background:url(img/icon/open-close.png) no-repeat 0 -9px;
+	cursor:pointer
+}
+#categories_block_left li .OPEN:hover {
+	display:block;
+	float:right;
+	margin:13px 10px 0;
+	height:9px;
+	width:18px;
+	background:url(img/icon/open-close-hover.png) no-repeat 0 -9px;
+	cursor:pointer
+}
+
+#categories_block_left li .CLOSE:hover {
+	display:block;
+	float:right;
+	margin:13px 10px 0;
+	height:9px;
+	width:18px;
+	background:url(img/icon/open-close-hover.png) no-repeat;
+	cursor:pointer
+}
+#categories_block_left li .CLOSE {
+    background-position:0 0
+}
+
+/* footer */
+.blockcategories_footer {
+	padding:15px 10px;
+}
+.blockcategories_footer ul ul {
+    display:none !important
+}

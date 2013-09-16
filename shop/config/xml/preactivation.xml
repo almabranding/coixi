@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<partners>
+<partner>
+	<name><![CDATA[eBay]]></name>
+	<module>ebay</module>
+	<checkconfiguration>
+		<key>EBAY_API_TOKEN%</key>
+	</checkconfiguration>
+	<logo><![CDATA[http://api.prestashop.com/partner/premium/images/ebay.jpg]]></logo>
+	<labels>
+		<label iso="en"><![CDATA[Increase your sales and the number of your customers by installing the eBay module!]]></label>
+		<label iso="es"><![CDATA[Aumenta sus ventas y el numero de sus clientes con el modulo eBay]]></label>
+		<label iso="fr"><![CDATA[Augmentez vos ventes et le nombre de vos clients en installant le module eBay !]]></label>
+		<label iso="it"><![CDATA[Installa il modulo eBay e aumenta le tue vendite e i tuoi compratori!]]></label>
+	</labels>
+	<optionals>
+	</optionals>
+	<descriptions>
+	</descriptions>
+</partner><partner>
+	<name><![CDATA[Trustly]]></name>
+	<module>trustly</module>
+	<checkconfiguration>
+		<key>TRUSTLY_USERNAME</key>
+		<key>TRUSTLY_PASSWORD</key>
+	</checkconfiguration>
+	<logo><![CDATA[http://api.prestashop.com/partner/premium/images/trustly.png]]></logo>
+	<labels>
+		<label iso="es"><![CDATA[Pago seguro por transferencia bancaria directa online. Haz clic ahora y disfruta de nuestra oferta de lanzamiento.]]></label>
+	</labels>
+	<descriptions>
+		<description iso="es"><![CDATA[Haz clic ahora y disfruta de nuestra oferta de lanzamiento.]]></description>
+	</descriptions>
+</partner>
+
+</partners>

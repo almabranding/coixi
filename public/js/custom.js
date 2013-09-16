@@ -1,0 +1,40 @@
+
+
+$(window).load(function() {
+ $('.image_media span').click(function() {
+        var url = $(this).data('href');
+        window.open(url, 'sharer', 'toolbar=0,status=0,width=600,height=400');
+
+        // prevent lightbox from firing
+        return false;
+    });
+});
+
+var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone/i);
+    },
+    iPad: function() {
+        return navigator.userAgent.match(/iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
+
+function scrollToAnchor(aid){
+    var aTag = $(aid);
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
