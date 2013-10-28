@@ -11,7 +11,7 @@ class Bootstrap {
     private $_errorFile = 'error.php';
     private $_defaultFile = 'index.php';
     private $_ZebraForm = 'Zebra_Form.php';
-    private $_allowLang = Array('EN','ES','PT');
+    private $_allowLang = Array('EN','ES','CA');
     /**
      * Starts the Bootstrap
      * 
@@ -112,6 +112,7 @@ class Bootstrap {
             Session::set('lang','EN');
             define('LANG',Session::get('lang'));
         }
+        define('PATH',implode("/", $this->_url));
     }
     private function _getCache()
     {

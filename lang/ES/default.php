@@ -13,4 +13,5 @@ $lang['contactUs']='Contactar';
 $lang['suscribirse']='suscribirse';
 $lang['borrarse']='Borrarse';
 $lang['send']='Enviar';
+$lang['telar']='Textil';
 ?>

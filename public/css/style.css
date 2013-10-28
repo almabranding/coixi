@@ -230,6 +230,38 @@ label {
     
     z-index: 100;
 }
+.coixinsHome .item  .tooltip_wrapper {
+    height: 80%;
+    left: 10%;
+    position: absolute;
+    top: 10%;
+    width: 80%;
+    cursor: pointer;
+}
+.coixinsHome .item  .tooltip .content {
+    color: #C0C0C0;
+    display: inline-block;
+    font-family: Courier New,courier,monospace,georgia,serif;
+    font-size: 12px;
+    left: 0;
+    line-height: 1.2em;
+    position: absolute;
+    top: 44%;
+    vertical-align: middle;
+    width: 100%;
+}
+.coixinsHome .item  .tooltip {
+    background: url("../images/black_ball.png") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+    display: none;
+    height: 100%;
+    line-height: 179px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.coixinsHome .item:hover .tooltip {
+    display: inherit;
+}
 #sneak_peek .coixinsHome{
     max-width: 980px;
     background: #fff;
@@ -237,25 +269,25 @@ label {
     text-align: center;
     padding-top: 22px;
 }
-#sneak_peek .coixinsHome .coixiHome .tooltip_wrapper {
+ .coixinsHome .coixiHome .tooltip_wrapper {
     left: 50%;
     position: absolute;
     top: 50%;
 }
-#sneak_peek .coixinsHome li{
+ .coixinsHome li{
     display: inline-block;
      margin: 0 9px 5px 0;
     position: relative;
     
     cursor: pointer;
 }
-#sneak_peek .coixinsHome .coixiHome .tooltip_wrapper {
+ .coixinsHome .coixiHome .tooltip_wrapper {
     left: 50%;
     position: absolute;
     top: 50%;
 }
-#sneak_peek .coixinsHome .coixiHome  .tooltip {
-    background: url("https://www.bibandtuck.com/assets/sneakpeek/icon_circle_tooltip-09d86e86ea1110c1b8c428ee768a46c9.png") no-repeat scroll 0 0 transparent;
+ .coixinsHome .coixiHome .tooltip {
+    background: url("../images/black_ball.png") no-repeat scroll 0 0 transparent;
     display: none;
     height: 179px;
     left: -89px;
@@ -265,11 +297,12 @@ label {
     top: -89px;
     width: 179px;
 }
-#sneak_peek .coixinsHome .coixiHome .tooltip .content {
+.coixinsHome .tooltip .content {
     display: inline-block;
     font-family: Courier New,courier,monospace,georgia,serif;
     font-size: 12px;
     line-height: 1.2em;
+    color:#C0C0C0;
     vertical-align: middle;
 }
 #sneak_peek .coixinsHome .coixiHome:hover .tooltip {
@@ -304,7 +337,7 @@ label {
 nav#access{
     font-size: 13px;
     margin: 21px 0;
-    width: 166px;
+    width: 180px;
     text-transform: uppercase;
 }
 nav#access ul>li{
@@ -313,6 +346,7 @@ nav#access ul>li{
     display: block;
     margin: 0;
     padding: 1px 8px;
+    text-align: center;
     line-height: 22px;
 }
 nav#access ul ul {
@@ -345,7 +379,7 @@ nav.menu {
     cursor: pointer;
     float: right;
     list-style: none outside none;
-    margin: 22px 10px 0 16px;
+    margin: 22px 10px 0 30px;
     position: relative;
     right: 20px;
     text-transform: uppercase;
@@ -624,4 +658,31 @@ nav.menu #hi{
     height: 42px;
     margin: auto;
     width: 148px;
+}
+.Hmenu{
+    float:left;
+    position: relative;
+    top: 30px;
+}
+.Hmenu li {
+    font-family: 'AvantGardeLight';
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.Hmenu li a {
+    color: #fffbd5 !important;
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    position: relative;
+    margin: 0 15px;
+    padding-bottom: 7px;
+}
+.Hmenu li a:hover {
+    background: url("../images/menuUnderline.jpg") repeat-x scroll 0 bottom rgba(0, 0, 0, 0) !important;
 }

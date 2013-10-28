@@ -9,31 +9,36 @@ SA <contact@prestashop.com>*  @copyright  2007-2012 PrestaShop SA*  @version  Re
 
 <div id="header_user"> 
 
-<p class="userinfo">		
-{l s='Welcome' mod='blockuserinfo'}		
-{if $logged}			
-<a href="{$link->getPageLink('my-account', true)}" class="account"><span>{$cookie->customer_firstname} {$cookie->customer_lastname}</span></a>			
-<a href="{$link->getPageLink('index', true, NULL, "mylogout")}" title="{l s='Log me out' mod='blockuserinfo'}" class="logout">{l s='Log out' mod='blockuserinfo'}</a>		
-{else}			
-<a href="{$link->getPageLink('my-account', true)}" class="login">{l s='Log in' mod='blockuserinfo'}</a>		
-{/if}	
-</p>
+    <p class="userinfo">		
+        {l s='Welcome' mod='blockuserinfo'}		
+        {if $logged}			
+            <a href="{$link->getPageLink('my-account', true)}" class="account"><span>{$cookie->customer_firstname} {$cookie->customer_lastname}</span></a>			
+            <a href="{$link->getPageLink('index', true, NULL, "mylogout")}" title="{l s='Log me out' mod='blockuserinfo'}" class="logout">{l s='Log out' mod='blockuserinfo'}</a>		
+        {else}			
+            <a href="{$link->getPageLink('my-account', true)}" class="login">{l s='Log in' mod='blockuserinfo'}</a>		
+        {/if}	
+    </p>
+    {assign var="lng" value="`$lang_iso`/"}
+    <ul class="langFlags">
+        <li><a class="{($lang_iso=='ca')?'selected':''} " href="{str_replace($lng, 'ca/', $link->getLanguageLink($id_lang))}">CA |</a></li>
+        <li><a class="{($lang_iso=='gb')?'selected':''} " href="{str_replace($lng, 'gb/', $link->getLanguageLink($id_lang))}">EN |</a></li>
+        <li><a class="{($lang_iso=='es')?'selected':''} " href="{str_replace($lng, 'es/', $link->getLanguageLink($id_lang))}">ES</a></li>
+    </ul>
+    <ul>	
 
-<ul>	
-	
-{if !$PS_CATALOG_MODE}		
+        {if !$PS_CATALOG_MODE}		
 
-<li id="shopping_cart">			
-<a href="{$link->getPageLink("$order_process", true)}" title="{l s='Your Shopping Cart' mod='blockuserinfo'}">&nbsp;</a>		
-</li>		
+            <li id="shopping_cart">			
+                <a href="{$link->getPageLink("$order_process", true)}" title="{l s='Your Shopping Cart' mod='blockuserinfo'}">&nbsp;</a>		
+            </li>		
 
-{/if}			
+        {/if}			
 
-<li class="your_account">
-<a href="{$link->getPageLink('my-account', true)}" title="{l s='Your Account' mod='blockuserinfo'}">My account</a>
-</li>
+        <li class="your_account">
+            <a href="{$link->getPageLink('my-account', true)}" title="{l s='Your Account' mod='blockuserinfo'}">My account<i></i></a>
+        </li>
 
-</ul>	
+    </ul>	
 
 
 

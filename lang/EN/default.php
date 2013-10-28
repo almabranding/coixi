@@ -13,5 +13,6 @@ $lang['sumail']='Your mail';
 $lang['suscribirse']='Subscribe';
 $lang['borrarse']='Cancel';
 $lang['send']='Send';
+$lang['telar']='Textile';
 
 ?>

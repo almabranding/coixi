@@ -1,18 +1,27 @@
 <body>
-<div id="white_full" class="hide" style="" onclick="$('.hide').hide();"></div>
-<div id="white_box" class="hide" style="">
-<img src="../public/images/popupemc.jpg">
-<div class="underline"></div>
-<div id="footerLogo" style="margin-top: 20px;"></div>
-</div>
+    <?php include_once("analyticstracking.php") ?>
+    <div id="white_full" class="hide" style="" onclick="$('.hide').hide();"></div>
 
     <div id="wrapper">
         <?php Session::init(); ?>
         <header class="header">
-            <a href="#">
+            <a href="http://elmeucoixi.com">
                 <div class="logo"><img src="<?= URL ?>public/images/logoWhite.png"></div>
             </a>
-            
+            <ul class="Hmenu clearfix sf-js-enabled sf-shadow">
+                <li>
+                    <a href="http://shop.elmeucoixi.com/products">All products</a>
+                </li>
+                <li>
+                    <a href="http://elmeucoixi.com/EN/page/lookbook">Lookbook</a>
+                </li>
+                <li>
+                    <a href="<?= URL . LANG ?>/page/telar"><?= $this->lang['telar']; ?></a>
+                </li>
+                <li>
+                    <a href="http://elmeucoixi.com/EN/page/contact">About us</a>
+                </li>
+            </ul>
             <nav class="menu">
                 <ul>
                     <li>
@@ -29,21 +38,18 @@
             <nav id="access" class="menu">
                 <ul>
                     <li>
-                         <a href="http://shop.elmeucoixi.com/gb/">Enter to your store</a>
-<!--                        <ul>
+                        <a href="http://shop.elmeucoixi.com/gb/">Language</a>
+                        <ul>
                             <li>
-                                <a href="shop/gb/">English</a>
+                                <a href="http://shop.elmeucoixi.com/gb/">English</a>
                             </li>
                             <li>
-                                <a href="shop/ca/">Català</a>
+                                <a href="http://shop.elmeucoixi.com/ca/">Català</a>
                             </li>
                             <li>
-                                <a href="shop/fr/">Française</a>
+                                <a href="http://shop.elmeucoixi.com/es/">Español</a>
                             </li>
-                            <li>
-                                <a href="shop/es/">Español</a>
-                            </li>
-                        </ul>-->
+                        </ul>
 
                     </li>
 

@@ -51,5 +51,13 @@ class Page extends Controller {
         $this->view->gallery=$this->model->getGallery($id);
         $this->view->render('gallery/index');
     }
+    public function telar($id=16) {
+        $this->view->js = array('telar/js/masonry.pkgd.min.js','telar/js/custom.js');
+        $this->view->gallery=$this->model->getGallery($id);
+        $this->view->render('head',true);  
+        $this->view->render('headerShop',true);
+        $this->view->render('telar/index',true);
+        $this->view->render('footerShop',true);  
+    }
     
 }

@@ -40,12 +40,12 @@
 
 }
 
-#header_user li.your_account a  {
-	background: url("img/icons.png") no-repeat scroll 73px 0 transparent;
-        color: #603813;
-        font-size: 12px;
-        font-weight: normal;
-        padding: 3px 39px 0 0;
+#header_user li.your_account a i {
+	background: url("img/icons.png") no-repeat scroll 5px 0 rgba(0, 0, 0, 0);
+    color: #603813;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 3px 26px 0 0;
 } 
 #header_user li.your_account a:hover  {
 /*	background: url(img/icons.png) no-repeat; 

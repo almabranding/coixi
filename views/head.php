@@ -11,13 +11,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>El meu coixi</title>
     <meta charset="UTF-8"> 
-    <meta property="og:title" content="" />
-    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="El meu coixi" />
+    <meta property="og:site_name" content="El meu coixi" />
     <meta property="og:description"content=""/>
     <meta property="og:image" content="" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
+    <meta name="description" content="TEXTIL LLAR,COIXINS,TEIXITS,VINTAGE,INTERIORISTES,DECORACIÓ,TEIXITS RATLLES,MANTES,PATCHWORK" />
+    <meta name="keywords" content="HOME TEXTILE,CUSHIONS,PILLOW,FABRICS,VINTAGE,INTERIOR DESIGN,DECORATION,STRIPES FABRICS,BLANKET,COVER,QUILT,PATCHWORK" />
+    <meta name="author" content="Alma Branding" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0,user-scalable=no"/>
     <link rel="shortcut icon" href="../favicon.png" Content-type="image/x-icon" />
     <link rel="stylesheet" href="<?php echo URL; ?>public/css/style.css" />

@@ -6988,3 +6988,19 @@ tr.subitem > td:first-child + td {
     text-transform: uppercase;
     width: 105px;
 }
+.langFlags{
+    margin-top: 0 !important;
+    position: absolute;
+    right: 0;
+    top: 13px;
+}
+.langFlags li{
+    display: inline-block;
+    float: none !important;
+}
+.langFlags li a{
+    color:#907351 !important;
+}
+.langFlags li a.selected,.langFlags li a:hover{
+    color:#603813 !important;
+}

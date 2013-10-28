@@ -61,9 +61,9 @@
              <li><a href="<?php echo URL.LANG; ?>/page">Pages</a></li>
         </ul>
         <ul id="langNav">
-            <li><a href="<?php echo URL.'EN/page'; ?>">EN</a></li>
-            <li><a href="<?php echo URL.'ES/page'; ?>">ES</a></li>
-            <li><a href="<?php echo URL.'CA/page'; ?>">CA</a></li>
+            <li><a href="<?php echo URL.'EN/'.PATH; ?>">EN</a></li>
+            <li><a href="<?php echo URL.'ES/'.PATH; ?>">ES</a></li>
+            <li><a href="<?php echo URL.'CA/'.PATH; ?>">CA</a></li>
         </ul>
     </nav>
     <div class="header_shadow"></div>
